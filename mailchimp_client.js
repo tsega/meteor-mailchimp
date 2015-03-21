@@ -1,3 +1,5 @@
+Mailchimp = {};
+
 Mailchimp.requestCredential = function (options, callback) {
 
     if (!callback && typeof options === 'function') {

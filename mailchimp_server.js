@@ -1,3 +1,5 @@
+Mailchimp = {};
+
 var Oauth = Package.oauth.Oauth;
 
 var urlUtil = Npm.require('url');
