@@ -88,7 +88,6 @@ var getAccountData = function(accessToken, metaData) {
   return result.content;
 }
 
-Mailchimp.retrieveCredential = function(credentialToken) {
-  console.log("retrieveCredential");
-  return Oauth.retrieveCredential(credentialToken);
+Mailchimp.retrieveCredential = function(credentialToken, credentialSecret) {
+  return Oauth.retrieveCredential(credentialToken, credentialSecret);
 };
