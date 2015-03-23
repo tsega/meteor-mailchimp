@@ -26,7 +26,7 @@ Mailchimp.requestCredential = function (options, callback) {
             '?response_type=code' +
             '&client_id=' + config.clientId +
             '&scope=' + flatScope +
-            '&redirect_uri=' + Meteor.absoluteUrl('_oauth/mailchimp?close', {replaceLocalhost:true}) +
+            '&redirect_uri=' + encodeURIComponent(Meteor.absoluteUrl('_oauth/mailchimp?close', {replaceLocalhost:true})) +
             '&state=' + state;
 
     OAuth.launchLogin({

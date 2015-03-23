@@ -1,5 +1,4 @@
 # meteor-mailchimp
-===============
 Forked from https://github.com/DiyahM/meteor-accounts-mailchimp
 
 A OAuth2 wrapper for the Mailchimp API

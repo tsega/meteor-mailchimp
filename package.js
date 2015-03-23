@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A OAuth2 wrapper for the Mailchimp API",
-  version: "0.0.3",
+  version: "0.0.4",
   git: "https://github.com/tsega/meteor-mailchimp"
 });
 
